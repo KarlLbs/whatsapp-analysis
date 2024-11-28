@@ -1,4 +1,6 @@
 # whatsapp-analysis
+[Ongoing project, parts still to be added]
+
 Tools to analyse your whatsapp data.
 
 Get and display various statistics from your whatsapp chats directly from the encrypted database files.
