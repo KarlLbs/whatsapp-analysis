@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "whatsapp-analysis"
+version = "0.1.0"
+description = ""
+authors = ["KarlLbs <karl.lubbos@ensea.fr>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+wa-crypt-tools = {git = "https://github.com/ElDavoo/wa-crypt-tools"}
+numpy = "2.0.2"
+pandas = "^2.2.3"
+matplotlib = "^3.9.2"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+adjusttext = "^1.3.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
